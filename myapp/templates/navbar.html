@@ -1,0 +1,12 @@
+<ul>
+  <li><a href="{% url 'home' %}">Home</a></li>
+
+
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Authentication</a>
+        <div class="dropdown-content">
+          <a href="{% url 'loginpage' %}">Login</a>
+          <a href="{% url 'registerpage' %}">Register</a>
+        </div>
+    </li>
+</ul>
